@@ -98,9 +98,8 @@ margin-right: 50px;
 p:hover
 {
   background-color:#97EAED;
-  border-radius: 50%;
   opacity: 70%;
-   border-radius: 6%;
+ 
 }
 .profile
 {
