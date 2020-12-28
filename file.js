@@ -44,14 +44,7 @@
                  {
                     statusElem.append('<div>Grade is not valid </div>');
                  }
-                if(message.length>10)
-                {
-                    statusElem.append('<div> Message is valid </div>');
-                }
-                else
-                {
-                    statusElem.append('<div> Meassage is not valid </div>');
-                }
+               
                 
             }
         );
