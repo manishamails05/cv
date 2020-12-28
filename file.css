@@ -31,36 +31,20 @@ font-size: 2.5rem;
 color:#66BFBF; 
 font-family: 'Montserrat', sans-serif;
 font-weight: normal;
-
 padding-bottom: 10px;
 }
 
 
 .top
 {
-  
-  padding-left: 20PX;
+ padding-left: 20PX;
 }
-.middle
-{
-  
-}
-.bottom
-{
 
-}
-span
-{
-  background-color:#E0E0F8;
-}
 .bottom-cloud
 {
   position:absolute;
   margin-top: 60px;
    margin-bottom: 60px;
-
-  
-
 }
 .top-cloud
 {
@@ -76,8 +60,7 @@ span
 {
   position:relative;
   right:300px;
-  
-}
+ }
 
 h3
 {
@@ -94,34 +77,42 @@ p{
   text-align: left;
   line-height: 2;
   margin-left: 0px;
-
-
-}
+  font-size: 1rem;
+ }
 
 .img-all
 {
 height: 25%;
 float: left;
-margin-right: 30px;// to make space between image and text like padding
+margin-right: 50px;
 
+}
+.img-all:hover
+{
+   opacity: 80%;
 }
 .para
 {
   text-align: left;
-
-
+}
+p:hover
+{
+  background-color:#97EAED;
+  border-radius: 50%;
+  opacity: 70%;
+   border-radius: 6%;
 }
 .profile
 {
 width:50%;
 margin:100px auto 100px auto;
-
-
 }
 .bottom-container
 {
   background-color: #66BFBF;
-  padding:50px 0 20px;
+  padding-top: 50px;
+  margin-top: 50px;
+  width: auto ;
 }
 .copywright
 {
@@ -151,6 +142,7 @@ a:hover
 {
   margin-right: 0px;
   margin-top: 0px;
+
 }
 .hello
 {
@@ -160,7 +152,7 @@ a:hover
 #my-skills
 {
  text-align: center;
-  width: 25%;
+  
 }
 .middle-container
 {
@@ -168,9 +160,21 @@ a:hover
 }
 .intro
 {
-  width:30%;
+  width:50%;
   margin:auto;
+  color: black;  
+  margin-left: 250px;
+  text-align: left;
+  
 }
+.intro:hover  {
+        /*background-color: #E0E0F8; 
+        /*background-color: #11999E; */
+       background-color:#97EAED;
+  border-radius: 50%;
+        opacity: 70%;
+        border-radius: 6%;
+    }
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -186,6 +190,8 @@ a:hover
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
 
 .btn:hover {
@@ -197,3 +203,44 @@ a:hover
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+.cal
+{
+  float: right;
+  width: 300px;
+  height: 300px;
+}
+
+
+textarea
+{
+  width:70%;
+}
+.form_new
+{
+  height: 55%;width: 25%;
+  background-color: #ffffff;
+  margin: auto;
+  }
+
+input{
+  width: 100%;
+  
+  height: 40px;
+  width:70%;
+  border:  1px 0 0 0;
+  border-top-color: gray;
+  padding-left: 0px;
+}
+label
+{
+line-height: 40px;
+font-size: 1.25rem;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+ 
+
+
+
+
