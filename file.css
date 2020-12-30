@@ -31,13 +31,15 @@ font-size: 2.5rem;
 color:#66BFBF; 
 font-family: 'Montserrat', sans-serif;
 font-weight: normal;
+
 padding-bottom: 10px;
 }
 
 
 .top
 {
- padding-left: 20PX;
+  
+  padding-left: 20PX;
 }
 
 .bottom-cloud
@@ -45,6 +47,9 @@ padding-bottom: 10px;
   position:absolute;
   margin-top: 60px;
    margin-bottom: 60px;
+
+  
+
 }
 .top-cloud
 {
@@ -60,7 +65,8 @@ padding-bottom: 10px;
 {
   position:relative;
   right:300px;
- }
+  
+}
 
 h3
 {
@@ -78,13 +84,15 @@ p{
   line-height: 2;
   margin-left: 0px;
   font-size: 1rem;
- }
+ 
+
+}
 
 .img-all
 {
 height: 25%;
 float: left;
-margin-right: 50px;
+/*margin-right: 50px;// to make space between image and text like padding */
 
 }
 .img-all:hover
@@ -94,17 +102,23 @@ margin-right: 50px;
 .para
 {
   text-align: left;
+
+
+
 }
 p:hover
 {
- 
-  opacity: 70%;
- 
+
+  border-radius: 50%;
+        opacity: 70%;
+        border-radius: 6%;
 }
 .profile
 {
 width:50%;
 margin:100px auto 100px auto;
+
+
 }
 .bottom-container
 {
@@ -143,6 +157,11 @@ a:hover
   margin-top: 0px;
 
 }
+#img_code
+{
+ margin-left: 450px;
+ margin-top:30px;
+}
 .hello
 {
   margin-left: 0px;
@@ -151,6 +170,7 @@ a:hover
 #my-skills
 {
  text-align: center;
+ margin-top:400px;
   
 }
 .middle-container
@@ -213,10 +233,11 @@ a:hover
 textarea
 {
   width:70%;
+ 
 }
-.form_new
-{
+.form_new{
   height: 55%;width: 25%;
+  font-size: 1rem;
   background-color: #ffffff;
   margin: auto;
   }
@@ -234,12 +255,189 @@ label
 {
 line-height: 40px;
 font-size: 1.25rem;
-font-family: 'Montserrat', sans-serif;
+text-align: left;
 
 }
+.circle{
+           height: 160px;
+           width: 160px;
+           background: #ff9292;
+           border-radius: 60%;
+            padding: 30px;
+              
+           left:50%;
+           margin-top: -15px; 
+            
+            position: absolute;
+          
+           text-align: center;
+          justify-content: left;
+           color: #ffffff;
 
- 
+          transition: margin-left .5s; /* If you want a transition effect */
+        
+        box-shadow: 
+          inset 0 0 0 16px rgba(255,255,255,0.6),
+          0 1px 2px rgba(0,0,0,0.1);
+}
+#circle_a    
+   {
+    left:800px;
+    margin-top: 10px;
+   } 
+         
+   #circle_b    
+   {
+    left:1050px;
+    margin-top: 10px;
+   } 
+   #circle_c
+   {
+   left:1300px;
+    margin-top: 10px;
+     }    
+         
 
+
+ /*.circle : hover
+{
+display: inline;
+float: right;
+  
+  color: red;
+  width: 80%;
+  line-height: 40px;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 0px 0px 6px 6px;
+}*/
+
+  .sidebar
+{
+  width:0px;
+
+  background-color: #ff9292;
+  z-index: 1;
+  top: 20px;
+  
+ height: 200px;
+  overflow-x: hidden; /*for Disabling horizontal scroll */ 
+  transition: 0.8s;
+  
+  box-shadow: 
+          inset 0 0 0 16px rgba(255,255,255,0.6),
+          0 1px 2px rgba(0,0,0,0.1);
+
+
+}
+.p_circle
+{
+  
+  text-align: center;
+  
+}
+a
+{
+  text-decoration: none;
+  color: white;
+}
+.p_sidebar
+{
+margin-left: 0px;
+padding-left: 20px
+}
+.circleCourse
+{
+  height: 160px;
+           width: 160px;
+           background: #ff9292;
+           border-radius: 60%;
+            padding: 30px;
+              
+           left:40%;
+           margin-top: -20px; 
+            
+            position: absolute;
+          
+           text-align: center;
+          justify-content: left;
+           color: #ffffff;
+
+          transition: margin-left .5s; /* If you want a transition effect */
+        
+        box-shadow: 
+          inset 0 0 0 16px rgba(255,255,255,0.6),
+          0 1px 2px rgba(0,0,0,0.1);
+
+}
+#circleCourse_a    
+   {
+    left:800px;
+    margin-top: 0px;
+   } 
+   #circleCourse_b   
+   {
+    left:1050px;
+    margin-top: 0px;
+   } 
+   #circleCourse_c 
+   {
+    left:1300px;
+    margin-top: 0px;
+   } 
+.sidebarCourse
+{
+  width:0px;
+
+  background-color: #ff9292;
+  z-index: 1;
+  top: 40px;
+  
+ height: 200px;
+  overflow-x: hidden; /*for Disabling horizontal scroll */ 
+  transition: 0.8s;
+  
+  box-shadow: 
+          inset 0 0 0 16px rgba(255,255,255,0.6),
+          0 1px 2px rgba(0,0,0,0.1);
+}
+.p_sidebarCourse
+{
+  margin-left: 0px;
+padding-left: 20px
+}
+#sidebarCourse_b
+{
+  width:0px;
+
+  background-color: #ff9292;
+  z-index: 1;
+  top: 40px;
+  
+ height: 200px;
+  overflow-x: hidden; /*for Disabling horizontal scroll */ 
+  transition: 0.8s;
+  
+  box-shadow: 
+          inset 0 0 0 16px rgba(255,255,255,0.6),
+          0 1px 2px rgba(0,0,0,0.1);
+}
+#sidebar_b
+{
+  width:0px;
+
+  background-color: #ff9292;
+  z-index: 1;
+  top: 40px;
+  
+ height: 200px;
+  overflow-x: hidden; /*for Disabling horizontal scroll */ 
+  transition: 0.8s;
+  
+  box-shadow: 
+          inset 0 0 0 16px rgba(255,255,255,0.6),
+          0 1px 2px rgba(0,0,0,0.1);
+}
 
 
 
