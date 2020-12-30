@@ -1,5 +1,81 @@
 
-        	
+function openNav_a() {
+             
+document.getElementById("sidebar").style.width = "650px";
+  
+document.getElementById("sidebar").style.marginLeft="100px";
+ document.getElementById("circle_b").style.opacity="0.2";
+document.getElementById("circle_c").style.opacity="0.2";
+    
+}
+
+
+function closeNav_a()
+{
+    document.getElementById("sidebar").style.width = "0px";
+    document.getElementById("circle_b").style.opacity="0.9";
+    document.getElementById("circle_c").style.opacity="0.9";
+}
+function openNav_b() 
+{
+             
+  document.getElementById("sidebar_b").style.width = "650px";
+ document.getElementById("sidebar_b").style.marginLeft="150px";
+ 
+document.getElementById("circle_a").style.opacity="0.2";
+document.getElementById("circle_c").style.opacity="0.2";
+    
+}
+function closeNav_b()
+{
+    document.getElementById("sidebar_b").style.width = "0px";
+    document.getElementById("circle_a").style.opacity="0.9";
+    document.getElementById("circle_c").style.opacity="0.9";
+}
+function openNavCourse_a() {
+             
+document.getElementById("sidebarCourse").style.width = "650px";
+  document.getElementById("sidebarCourse").style.marginTop = "50px";
+document.getElementById("sidebarCourse").style.marginLeft="90px";
+ document.getElementById("circleCourse_b").style.opacity="0.2";
+document.getElementById("circleCourse_c").style.opacity="0.2";
+    
+}
+function closeNavCourse_a()
+{
+    document.getElementById("sidebarCourse").style.width = "0px";
+    document.getElementById("circleCourse_b").style.opacity="0.9";
+    document.getElementById("circleCourse_c").style.opacity="0.9";
+}
+function openNavCourse_b()
+{
+    document.getElementById("sidebarCourse_b").style.width = "650px";
+ document.getElementById("sidebarCourse_b").style.marginLeft="150px";
+ document.getElementById("sidebarCourse_b").style.marginTop = "50px";
+document.getElementById("circleCourse_a").style.opacity="0.2";
+document.getElementById("circleCourse_c").style.opacity="0.2";
+}
+function closeNavCourse_b()
+{
+     document.getElementById("sidebarCourse_b").style.width = "0px";
+    document.getElementById("circleCourse_a").style.opacity="0.9";
+    document.getElementById("circleCourse_c").style.opacity="0.9";
+}
+function openNavCourse_c()
+{
+    document.getElementById("sidebarCourse_c").style.width = "650px";
+ document.getElementById("sidebarCourse_c").style.marginLeft="150px";
+ document.getElementById("sidebarCourse_c").style.marginTop = "50px";
+document.getElementById("circleCourse_a").style.opacity="0.2";
+document.getElementById("circleCourse_b").style.opacity="0.2";
+}
+function closeNavCourse_c()
+{
+     document.getElementById("sidebarCourse_c").style.width = "0px";
+    document.getElementById("circleCourse_a").style.opacity="0.9";
+    document.getElementById("circleCourse_b").style.opacity="0.9";
+}
+
 
         $( document ).ready(function()
         {
@@ -44,7 +120,14 @@
                  {
                     statusElem.append('<div>Grade is not valid </div>');
                  }
-               
+                if(message.length>10)
+                {
+                    statusElem.append('<div> Message is valid </div>');
+                }
+                else
+                {
+                    statusElem.append('<div> Meassage is not valid </div>');
+                }
                 
             }
         );
