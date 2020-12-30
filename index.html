@@ -12,7 +12,7 @@
 emailjs.init("user_o5NOP5fWILbkSKa5mW5HB");
 })();
 </script>
-
+ 
 
         
   
@@ -20,7 +20,7 @@ emailjs.init("user_o5NOP5fWILbkSKa5mW5HB");
 <div class="top">
 	<img src="manisha.png" alt="" height="70px" class="name">
 	 <img src="cloud.png" class="top-cloud">
-    <h1><em><b>I'm Manisha</b></em> </h1>
+    <h1><em><b>I'm Manisha</b></em>  </h1>
    <h2><strong> Kids Mentor |  Educator  </strong> in Computer Science </h2>
     <img src="cloud.png" class="bottom-cloud">
     <img src="mountain.png" class="mountain">
@@ -32,22 +32,81 @@ emailjs.init("user_o5NOP5fWILbkSKa5mW5HB");
   	<div class="profile">
 	    <img src="female.png" alt="" height="100px" class="img-all" id="female">
 	   
-	    <p class="intro" >I ❤️ to teach Web Designing fundamentals to the kids.I have an experience of over 7 years teaching to kids in Computer Science. I have done my M.E(Masters In Engineering) from U.I.E.T. (Panjab Univ). <br>I understand that every kid is unique and may require different teaching methodology.<br>With my teaching experience, I make sure the concepts are fully understandable. Kids learn a lot through fun games, quizzes without feeling pressurised , so that his/her intersts would remain.<br>You can look at my philosophy of teachig kids at this link - </p>
+	    <p class="intro" >
+	    		<div class="row right">
+        <span class="circle" id="circle_a" onmouseover ="openNav_a()" onmouseout="closeNav_a()"><p class="p_circle"><a href="#" onmouseover ="openNav_a()"
+         onmouseout="closeNav_a()">Experience in Computer Science</a></p>
+				<div class="sidebar" id="sidebar"><p class="p_sidebar">Apple Bavaraian Torte</p></div>
+
+		</span>
+
+             
+
+
+       
+    
+    
+</div>
+
+        <span class="circle" id="circle_b" onmouseover ="openNav_b()" onmouseout="closeNav_b()">
+        	<p class="p_circle" ><a href="#" onmouseover ="openNav_b()"
+         onmouseout="closeNav_b()"> M.E(Masters In Engineering) </a></p>
+         	<div class="sidebar" id="sidebar_b"><p class="p_sidebar">Apple Bavaraian Torte</p>
+         	</div>
+		</span>
+
+
+        <span class="circle" id="circle_c">  </span>
+       </div>
+
+	    	<!--I  ❤️ to teach Web Designing fundamentals to the kids.. <br>I understand that every kid is unique and may require different teaching methodology.<br>With my teaching experience, I make sure the concepts are fully understandable. Kids learn a lot through fun games, quizzes without feeling pressurised , so that his/her intersts would remain.<br>You can look at my philosophy of teachig kids at this link - </p>-->
   	</div>
   			<hr>
   	<div class="skills">
     <h2 class="my-skills" id="my-skills">Choose Your Challenge</h2>
-    	<div class="skill-row">
-	      <img class="img-all"src="code.svg" height="100px" alt="" class="skill">
-	      <h3>Various courses</h3>
-	      <p class="para"><strong> Fundamental course</strong>- Scratch, Basic HTML, Basic CSS, Introduction of how the internet works.</p>
-	      <p><strong>  Intermediate course</strong>- Advanced HTML, Javascript, MIT App Inventer.</p>
-	      <p><strong> Advanced course</strong> - Advanced JavaScript, JQuery, Unix basic Commands, Bootstrap, Deploying Website, Basics of Internet Marketing .</p>
-    	</div>
-    	<div class="skill-row">
-	      <img class="img-all" src="flowers.png" alt="" height="100px">
-	      <h3>Coding</h3>
-	      <p class="para">Here are some of the feedbacks from my students.</p>
+    	
+	      <img class="img-all" id="img_code" src="code.svg" height="130px" alt="">
+	      <h3>Various types of Courses</h3>
+
+	      <span class="circleCourse" id="circleCourse_a" onmouseover ="openNavCourse_a()" onmouseout="closeNavCourse_a()">
+        	<p class="p_circle" ><a href="#" onmouseover ="openNavCourse_a()"
+         onmouseout="closeNavCourse_a()"> Fundamental course </a></p>
+         	<div class="sidebarCourse" id="sidebarCourse"><p class="p_sidebarCourse">Scratch, Basic HTML, Basic CSS, Introduction of how the internet works.</p>
+         	</div>
+		</span>
+<!--Course b -->
+
+		<span class="circleCourse" id="circleCourse_b" onmouseover ="openNavCourse_b()" onmouseout="closeNavCourse_b()">
+        	<p class="p_circle" ><a href="#" onmouseover ="openNavCourse_b()"
+         onmouseout="closeNavCourse_b()"> Intermediate Course </a></p>
+         	<div class="sidebarCourse" id="sidebarCourse_b"><p class="p_sidebarCourse"> Advanced HTML5.0, CSS3.0 ,Javascript, MIT App Inventer.</p>
+	      </div>
+		</span>
+			<!--Course c -->
+
+
+		<span class="circleCourse" id="circleCourse_c" onmouseover ="openNavCourse_c()" onmouseout="closeNavCourse_c()">
+        	<p class="p_circle" ><a href="#" onmouseover ="openNavCourse_c()"
+         onmouseout="closeNavCourse_c()"> Advanced Course </a></p>
+         	<div class="sidebarCourse" id="sidebarCourse_c"><p class="p_sidebarCourse">Advanced JavaScript, JQuery, Unix basic Commands, Bootstrap, Deploying Website, Basics of Internet Marketing </p>
+         	</div>
+		</span>
+
+	     
+    </div> 
+    	<div class="testimonial"><br><br><br><br><br><br>
+	     <!-- <img class="img-all" src="flowers.png" alt="" height="100px">-->
+	      <h3>What other Parents say</h3>
+	      <p class="para">Testimonials.</p>
+	      
+</div>
+
+
+
+
+
+
+
     	</div>
  	</div>
   <hr>
@@ -64,21 +123,21 @@ emailjs.init("user_o5NOP5fWILbkSKa5mW5HB");
 	<!--<form class="form_new" method="post" action="https://api.emailjs.com/api/v1.0/email/send-form" id="contact-form" 
 	enctype="multipart/form-data">-->
 	<div class="form_new">
-	<label>Name: <span class="required"  >*</span></label><br><input type="text" id="toName" class="fname" placeholder="more than 2 characters" /> <br />
+	<label>Name: <span class="required"  >*</span></label><br><input type="text" id="toName" class="fname" placeholder="more than 3 characters" /> <br />
 	<label>Email Address:<span class="required" >*</span></label><br><input type="email" id="fromName" required="" class="email" placeholder="For e.g name@email.com" /><br />
 	<label>Grade of the child: <span class="required">*</span></label><br><input type="number" id="msg" required="" class="grade" placeholder="1 character" /><br>
 	<label>Message:</label><br><textarea rows=5 cols=30 name="message" class="message"></textarea><br>
 	<button onclick ="sendMail()" class="btn" > CONTACT ME</button>
-		<div class="status"></div>
+	<div class="status">
 	</div>
 
 	
-
+ <!-- <a class="btn" href="mailto:name@email.com">CONTACT ME</a> -->
 <div class="bottom-container">
-	<!--
+	
   <a class="footer-link" href="">LinkedIn</a>
   <a class="footer-link" href="">Twitter</a>
--->
+
   <a class="footer-link" href="">Website</a>
 
   <p class="copywright">© 2020 Manisha.</p>
