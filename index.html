@@ -19,9 +19,10 @@ emailjs.init("user_o5NOP5fWILbkSKa5mW5HB");
 
 
 <div class="top">
-	<img src="female.png" alt="img" class="img-all" id="female" />
+	
+	<img src="manisha.png" alt="img" class="name_img" id="name_img" />
 	 <img src="cloud.png" class="top-cloud" alt="cloud" />
-    <h1><em><b>I'm Manisha</b></em>  </h1>
+    <h1 class="intro"><em><b>I'm Manisha</b></em>  </h1>
    	<h2><strong> Kids Mentor |  Educator  </strong> in Computer Science </h2>
     <img src="cloud.png" class="bottom-cloud" alt="cloud" />
     <img src="mountain.png" class="mountain"  alt="mtn" />
@@ -31,7 +32,7 @@ emailjs.init("user_o5NOP5fWILbkSKa5mW5HB");
 
 <div class="middle-container">
 <h2>Know Me Better</h2>
-<img src="manisha.png" alt="img" class="name_img" id="name_img" />
+<img src="female.png" alt="img" class="img-all" id="female" />
 
 		<div class="circle" id="circle_a" onmouseover ="openNav_a()" onmouseout="closeNav_a()"><p class="p_circle"><a href="#" onmouseover ="openNav_a()"
          			onmouseout="closeNav_a()">Experience in Computer Science</a></p>
@@ -59,12 +60,66 @@ emailjs.init("user_o5NOP5fWILbkSKa5mW5HB");
 </div>
 <!--end of div2 -->
 
-<div class="skills">
+<div class="bottom-container">
 <h2 class="my-skills" id="my-skills">Choose Your Challenge</h2><br /><br />
-    	
+   <img class="img-all" id="img_code" src="code.svg"  alt="img"> 	
 
-
-
-<!--end of skills division -->
+<div class="circleCourse" id="circleCourse_a" onmouseover ="openNavCourse_a()" onmouseout="closeNavCourse_a()">
+        	<p class="p_circle" ><a href="#" onmouseover ="openNavCourse_a()"
+         onmouseout="closeNavCourse_a()"> Fundamental course </a></p>
+         	<div class="sidebarCourse" id="sidebarCourse"><p class="p_sidebarCourse">Scratch, Basic HTML, Basic CSS, Introduction of how the internet works.</p>
+         	</div>
 </div>
+<!--Course b -->
+
+
+
+<div class="circleCourse" id="circleCourse_b" onmouseover ="openNavCourse_b()" onmouseout="closeNavCourse_b()">
+        	<p class="p_circle" ><a href="#" onmouseover ="openNavCourse_b()"
+         onmouseout="closeNavCourse_b()"> Intermediate Course </a></p>
+         	<div class="sidebarCourse" id="sidebarCourse_b"><p class="p_sidebarCourse"> Advanced HTML5.0, CSS3.0 ,Javascript, MIT App Inventer.</p>
+	      </div>
+		</div>
+
+<!--end of circlecourse b-->
+		<div class="circleCourse" id="circleCourse_c" onmouseover ="openNavCourse_c()" onmouseout="closeNavCourse_c()">
+        	<p class="p_circle" ><a href="#" onmouseover ="openNavCourse_c()"
+         onmouseout="closeNavCourse_c()"> Advanced Course </a></p>
+         	<div class="sidebarCourse" id="sidebarCourse_c"><p class="p_sidebarCourse">Advanced JavaScript, JQuery, Unix basic Commands, Bootstrap, Deploying Website, Basics of Internet Marketing </p>
+         	</div>
+		</div>
+</div>
+<!--end of skills division -->
+
+<div class="contact-me">
+    <h2>Get In Touch</h2>
+    <h3 class="desc-contact">You want to discuss your child's interest? Contact me via email at MailsManisha20@gmail.com or fill  the form below to find out how I can help your child</h3>
+    <p class="desc-contact"></p>
+   
+</div>
+
+<!-- end of contact me paragraph -->
+<div class="form_new">
+	<label>Name: <span class="required"  >*</span></label><br /><input type="text" id="toName" class="fname" placeholder="more than 2 characters" /> <br />
+	<label>Email Address:<span class="required" >*</span></label><br /><input type="email" id="fromName" required="" class="email" placeholder="For e.g name@email.com" /><br />
+	<label>Grade of the child: <span class="required">*</span></label><br /><input type="number" id="msg" required="" class="grade" placeholder="1 character" /><br />
+	<label>Message:</label><br><textarea rows=5 cols=30 name="message" class="message"></textarea><br />
+	<button onclick ="sendMail()" class="btn" > CONTACT ME</button>
+	<div class="status">
+	</div>
+</div>
+	<!-- end of form-->
+
+<div class="links_last">
+	
+  <a class="footer-link" href="#">LinkedIn</a>
+  <a class="footer-link" href="#">Twitter</a>
+
+  <a class="footer-link" href="#">Website</a>
+
+  <p class="copywright">© 2020 Manisha.</p>
+
+
+</div>
+
 </html>
