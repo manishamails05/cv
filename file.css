@@ -33,17 +33,19 @@ padding-bottom: 10px;
 .top-cloud
 {
   position:relative;
- left: 200px;
+  margin-right: 200px;
   margin-top: 60px;
 
 }
 
 .bottom-cloud
 {
-  position:absolute;
+  /*
   margin-top: 60px;
-   margin-bottom: 60px;
-
+   margin-bottom: 60px;*/
+position:relative;
+float: left;
+margin-left: 300px;
  }
 
 .mountain{
@@ -83,8 +85,8 @@ margin-top: 100px;
 }
 .bottom-container
 {
-	margin-top: 500px;
-	margin-bottom: 100px;
+	margin-top: 400px;
+	margin-bottom: 400px;
 }
 
 
@@ -101,7 +103,7 @@ margin-top: 100px;
          text-align: center;
           justify-content: left;
            color: #ffffff;
-
+font-family: 'Merriweather', serif;
           transition: margin-left .5s; /* If you want a transition effect */
         
         box-shadow: 
@@ -113,6 +115,7 @@ margin-top: 100px;
    	float: left;
  	margin-left: 3%;
     margin-top: 30px;
+ font-family: 'Merriweather', serif;
    } 
          
    #circle_b    
@@ -129,20 +132,19 @@ margin-top: 100px;
     margin-top: 30px;
      }
 
-     #sidebar
+     .sidebar_a
 {
   width:0px;
-   height: 200px;
+  
   background-color: #ff9292;
   z-index: 1;
-  margin-top: 20px;
- overflow-x: hidden; /*for Disabling horizontal scroll */ 
-  transition: 0.8s;
+ 
+ overflow-x: hidden;
+  transition: 0.6s;
   
   box-shadow: 
           inset 0 0 0 16px rgba(255,255,255,0.6),
-          0 1px 2px rgba(0,0,0,0.1);
-
+          0 1px 2px rgba(0,0,0,0.1); 
 
 }
 
@@ -152,8 +154,9 @@ margin-top: 100px;
 
   background-color: #ff9292;
   z-index: 1;
-  margin-top: 40px;
-  
+  margin-top: 20px;
+  float: left;
+  margin-left: 0px;
  height: 200px;
   overflow-x: hidden; /*for Disabling horizontal scroll */ 
   transition: 0.8s;
@@ -165,19 +168,43 @@ margin-top: 100px;
 
 .p_circle
 {
-  
-  text-align: left;
-  
+  font-family: 'Merriweather', serif;
+ padding-top: 20px;
+ text-align: left;
+font-size: 20px;
+ padding-left: 0px;
+
 }
 a
 {
   text-decoration: none;
   color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+  text-align:left;
+ padding-left: 0px;
 }
+
 .p_sidebar
 {
-margin-left: 0px;
-padding-left: 20px
+margin-left: 0px; 
+padding-top: 40px;
+
+width:0px;
+font-family: 'Merriweather', serif;
+font-size: 24px;
+padding-top: 20px;
+  background-color: #ff9292;
+  z-index: 1;
+  margin-top: 100px;
+ 
+ height: 150px;
+  overflow-x: hidden; /*for Disabling horizontal scroll */ 
+  transition: 0.8s;
+  
+  box-shadow: 
+          inset 0 0 0 16px rgba(255,255,255,0.6),
+          0 1px 2px rgba(0,0,0,0.1);
 } 
 #img_code
 {
@@ -205,6 +232,7 @@ padding-left: 20px
             
           
            text-align: center;
+
           justify-content: left;
            color: #ffffff;
 
@@ -221,13 +249,23 @@ padding-left: 20px
             
 
 }
+.p_circleCourse
+{
+	float: left;
+  font-size: 24px;
+/*padding-left:20px; */
+ font-family: 'Merriweather', serif;
+ padding-top: 10px;
+ padding-left: 0px;
+  
+}
 #circleCourse_a    
    {
-   	float: left;
+   	
    margin-top: 30px;
 	margin-left: 3%;
-   
-   } 
+
+  } 
    #circleCourse_b   
    {
     float: left;
@@ -240,14 +278,18 @@ padding-left: 20px
    margin-top: 30px;
 	margin-left: 4%;
    } 
-   .sidebarCourse
+   #sidebarCourse_a
 {
   width:0px;
+padding-top: 50px;
 
+margin-left: 10px;
   background-color: #ff9292;
   z-index: 1;
   top: 140px;
-  
+  font-size: 24px;
+  font-family: 'Merriweather', serif;
+ 
  height: 200px;
   overflow-x: hidden; /*for Disabling horizontal scroll */ 
   transition: 0.8s;
@@ -258,13 +300,17 @@ padding-left: 20px
 }
 .p_sidebarCourse
 {
-  margin-left: 0px;
-padding-left: 20px
+  margin-left: 10px;
+  padding-top: 40px;
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+ 
+
 }
 #sidebarCourse_b
 {
   width:0px;
-
+margin-left: 10px;
   background-color: #ff9292;
   z-index: 1;
   top: 40px;
@@ -276,7 +322,26 @@ padding-left: 20px
   box-shadow: 
           inset 0 0 0 16px rgba(255,255,255,0.6),
           0 1px 2px rgba(0,0,0,0.1);
+
 }
+#sidebarCourse_c
+{
+  width:0px;
+/*margin-left: 10px;*/
+  background-color: #ff9292;
+  z-index: 1;
+  top: 40px;
+ 
+ height: 200px;
+  overflow-x: hidden; /*for Disabling horizontal scroll */ 
+  transition: 0.8s;
+  
+  box-shadow: 
+          inset 0 0 0 16px rgba(255,255,255,0.6),
+          0 1px 2px rgba(0,0,0,0.1);
+
+}
+
 .desc-contact
 {
 
@@ -367,15 +432,137 @@ textarea
 }
 a
 {
-  color: #11999E;
+  color: #ffffff;
   font-family: 'Montserrat', sans-serif;
-  margin:10px 20px 10px 20px;
+  margin:0px 20px 10px 20px;
   text-decoration: none;
 }
 a:hover
 {
-  color: #ffffff;
+  /*color: #11999E;*/
+  color:#01F9E3;
+}
+.nav_a
+
+{
+	color:white;
+	/*text-align:center; */
+	font-family: 'Merriweather', serif;
+ padding-top: 10px;
+
+}
+.testimonial
+{
+
+}
+    #thank_you
+    {
+    	float: left;
+  margin-left: 20%;
+  margin-top: 30px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+
+    }    
+    .intro
+    {
+    	margin-left: 300px;
+    } 
+   .font
+   {
+   	font-family: 'Merriweather', serif;
+   	font-size: 24px;
+  text-align: left;
+  padding-left: 0px;
+   }
+  
+ .sidebarthank_a
+{
+  width:0px;
+  text-align: left;
+  background-color: #ff9292;
+  z-index: 1;
+ 
+ overflow-x: hidden;
+  transition: 0.6s;
+  
+  box-shadow: 
+          inset 0 0 0 16px rgba(255,255,255,0.6),
+          0 1px 2px rgba(0,0,0,0.1); 
+
+}
+.sidebarthank_b
+{
+  width:0px;
+  
+  background-color: #ff9292;
+  z-index: 1;
+ 
+ overflow-x: hidden;
+  transition: 0.6s;
+  
+  box-shadow: 
+          inset 0 0 0 16px rgba(255,255,255,0.6),
+          0 1px 2px rgba(0,0,0,0.1); 
+
 }
 
-         
+.sidebarthank_c
+{
+  width:0px;
+  
+  background-color: #ff9292;
+  z-index: 1;
+ 
+ overflow-x: hidden;
+  transition: 0.6s;
+  
+  box-shadow: 
+          inset 0 0 0 16px rgba(255,255,255,0.6),
+          0 1px 2px rgba(0,0,0,0.1); 
+
+}
+#circlethank_a
+{
+	float: left;
+ 	margin-left: 3%;
+    margin-top: 30px;
+ font-family: 'Merriweather', serif;
+}
+#circlethank_b
+{
+	float: left;
+ 	margin-left: 3%;
+    margin-top: 30px;
+ font-family: 'Merriweather', serif;
+}
+#circlethank_c
+{
+	float: left;
+ 	margin-left: 3%;
+    margin-top: 30px;
+ font-family: 'Merriweather', serif;
+}
+.p_sidebarthank
+{
+margin-left: 0px; 
+padding-top: 40px;
+padding-left: 40px;
+width:0px;
+font-family: 'Merriweather', serif;
+font-size: 24px;
+padding-top: 20px;
+  background-color: #ff9292;
+  z-index: 1;
+  margin-top: 100px;
+ 
+ height: 150px;
+  overflow-x: hidden; /*for Disabling horizontal scroll */ 
+  transition: 0.8s;
+  
+  box-shadow: 
+          inset 0 0 0 16px rgba(255,255,255,0.6),
+          0 1px 2px rgba(0,0,0,0.1);
+} 
 
