@@ -37,7 +37,7 @@ function openNav_c()
 {
              
   document.getElementById("sidebar_c").style.width = "400px";
- document.getElementById("sidebar_c").style.marginLeft="0px";
+ 
  document.getElementById("sidebar_c").style.paddingLeft="0px";
    document.getElementById("sidebar_c").style.textAlign="center";
 document.getElementById("circle_a").style.opacity="0.2";
@@ -104,7 +104,7 @@ function openthank_a() {
              
 document.getElementById("sidebarthank_a").style.width = "400px";
 
-   document.getElementById("sidebarthank_a").style.textAlign="left";
+   document.getElementById("sidebarthank_a").style.textAlign="center";
   document.getElementById("circlethank_b").style.opacity="0.2";
 document.getElementById("circlethank_c").style.opacity="0.2";
     
