@@ -1,10 +1,10 @@
 
 function openNav_a() {
              
-document.getElementById("sidebar").style.width = "650px";
-  
-document.getElementById("sidebar").style.marginLeft="100px";
- document.getElementById("circle_b").style.opacity="0.2";
+document.getElementById("sidebar_a").style.width = "400px";
+ document.getElementById("sidebar_a").style.marginLeft="0px";
+   document.getElementById("sidebar_a").style.textAlign="left";
+  document.getElementById("circle_b").style.opacity="0.2";
 document.getElementById("circle_c").style.opacity="0.2";
     
 }
@@ -12,16 +12,17 @@ document.getElementById("circle_c").style.opacity="0.2";
 
 function closeNav_a()
 {
-    document.getElementById("sidebar").style.width = "0px";
+    document.getElementById("sidebar_a").style.width = "0px";
     document.getElementById("circle_b").style.opacity="0.9";
     document.getElementById("circle_c").style.opacity="0.9";
 }
 function openNav_b() 
 {
              
-  document.getElementById("sidebar_b").style.width = "650px";
- document.getElementById("sidebar_b").style.marginLeft="150px";
- 
+  document.getElementById("sidebar_b").style.width = "400px";
+ document.getElementById("sidebar_b").style.marginLeft="0px";
+ document.getElementById("sidebar_b").style.paddingLeft="0px";
+   document.getElementById("sidebar_b").style.textAlign="left";
 document.getElementById("circle_a").style.opacity="0.2";
 document.getElementById("circle_c").style.opacity="0.2";
     
@@ -32,26 +33,48 @@ function closeNav_b()
     document.getElementById("circle_a").style.opacity="0.9";
     document.getElementById("circle_c").style.opacity="0.9";
 }
+function openNav_c() 
+{
+             
+  document.getElementById("sidebar_c").style.width = "400px";
+ document.getElementById("sidebar_c").style.marginLeft="0px";
+ document.getElementById("sidebar_c").style.paddingLeft="0px";
+   document.getElementById("sidebar_c").style.textAlign="left";
+document.getElementById("circle_a").style.opacity="0.2";
+document.getElementById("circle_b").style.opacity="0.2";
+    
+}
+function closeNav_c()
+{
+    document.getElementById("sidebar_c").style.width = "0px";
+    document.getElementById("circle_a").style.opacity="0.9";
+    document.getElementById("circle_b").style.opacity="0.9";
+}
+
 function openNavCourse_a() {
              
-document.getElementById("sidebarCourse").style.width = "650px";
-  document.getElementById("sidebarCourse").style.marginTop = "50px";
-document.getElementById("sidebarCourse").style.marginLeft="90px";
+document.getElementById("sidebarCourse_a").style.width = "400px";
+  document.getElementById("sidebarCourse_a").style.marginTop = "100px";
+/*document.getElementById("sidebarCourse").style.marginLeft="10px"; */
+document.getElementById("sidebarCourse_a").style.paddingLeft="0px";
+   document.getElementById("sidebarCourse_a").style.textAlign="left";
  document.getElementById("circleCourse_b").style.opacity="0.2";
 document.getElementById("circleCourse_c").style.opacity="0.2";
     
 }
 function closeNavCourse_a()
 {
-    document.getElementById("sidebarCourse").style.width = "0px";
+    document.getElementById("sidebarCourse_a").style.width = "0px";
     document.getElementById("circleCourse_b").style.opacity="0.9";
     document.getElementById("circleCourse_c").style.opacity="0.9";
 }
 function openNavCourse_b()
 {
-    document.getElementById("sidebarCourse_b").style.width = "650px";
- document.getElementById("sidebarCourse_b").style.marginLeft="150px";
- document.getElementById("sidebarCourse_b").style.marginTop = "50px";
+    document.getElementById("sidebarCourse_b").style.width = "400px";
+ /*document.getElementById("sidebarCourse_b").style.marginLeft="150px"; */
+ document.getElementById("sidebarCourse_b").style.marginTop = "100px";
+ document.getElementById("sidebarCourse_b").style.paddingLeft="0px";
+   document.getElementById("sidebarCourse_b").style.textAlign="left";
 document.getElementById("circleCourse_a").style.opacity="0.2";
 document.getElementById("circleCourse_c").style.opacity="0.2";
 }
@@ -63,9 +86,11 @@ function closeNavCourse_b()
 }
 function openNavCourse_c()
 {
-    document.getElementById("sidebarCourse_c").style.width = "650px";
- document.getElementById("sidebarCourse_c").style.marginLeft="150px";
- document.getElementById("sidebarCourse_c").style.marginTop = "50px";
+    document.getElementById("sidebarCourse_c").style.width = "400px";
+
+ document.getElementById("sidebarCourse_c").style.marginTop = "100px";
+  document.getElementById("sidebarCourse_c").style.padding="0px";
+   document.getElementById("sidebarCourse_c").style.textAlign="left";
 document.getElementById("circleCourse_a").style.opacity="0.2";
 document.getElementById("circleCourse_b").style.opacity="0.2";
 }
@@ -74,6 +99,51 @@ function closeNavCourse_c()
      document.getElementById("sidebarCourse_c").style.width = "0px";
     document.getElementById("circleCourse_a").style.opacity="0.9";
     document.getElementById("circleCourse_b").style.opacity="0.9";
+}
+function openthank_a() {
+             
+document.getElementById("sidebarthank_a").style.width = "400px";
+
+   document.getElementById("sidebarthank_a").style.textAlign="left";
+  document.getElementById("circlethank_b").style.opacity="0.2";
+document.getElementById("circlethank_c").style.opacity="0.2";
+    
+}
+function closethank_a()
+{
+     document.getElementById("sidebarthank_a").style.width = "0px";
+    document.getElementById("circlethank_b").style.opacity="0.9";
+    document.getElementById("circlethank_c").style.opacity="0.9";
+}
+function openthank_b() {
+             
+document.getElementById("sidebarthank_b").style.width = "400px";
+
+   document.getElementById("sidebarthank_b").style.textAlign="left";
+  document.getElementById("circlethank_a").style.opacity="0.2";
+document.getElementById("circlethank_c").style.opacity="0.2";
+    
+}
+function closethank_b()
+{
+     document.getElementById("sidebarthank_b").style.width = "0px";
+    document.getElementById("circlethank_a").style.opacity="0.9";
+    document.getElementById("circlethank_c").style.opacity="0.9";
+}
+function openthank_c() {
+             
+document.getElementById("sidebarthank_c").style.width = "400px";
+
+   document.getElementById("sidebarthank_c").style.textAlign="left";
+  document.getElementById("circlethank_a").style.opacity="0.2";
+document.getElementById("circlethank_b").style.opacity="0.2";
+    
+}
+function closethank_c()
+{
+     document.getElementById("sidebarthank_c").style.width = "0px";
+    document.getElementById("circlethank_a").style.opacity="0.9";
+    document.getElementById("circlethank_b").style.opacity="0.9";
 }
 
 
