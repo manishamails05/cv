@@ -4,17 +4,17 @@
                  float: center;
                 margin-left: 50%;
                 margin-right: 50%;
-                padding-left: 60%;
+                padding-left: 100%;
                 width: 20%;
                 padding-top: 100px;
                /* width: 100%; */
              }
-             .form_new{
+             .form_new1{
               color:grey;
                 width: 100%; 
                 float: center;
-               padding-left: 100%;
-               padding-right: 100%;
+               padding-left: 60%;
+               padding-right: 50%;
                margin-left:25%;
                
              }
@@ -32,7 +32,6 @@
 }
 .links_last
 {
-         
   float: center;
   width: 100%;
   padding-left: 350px;
@@ -204,7 +203,7 @@ padding-left: 20%;
 }
 .bottom-container
 {
-  margin-top: 400px;
+  margin-top: 500px;
   margin-bottom: 400px;
   padding-left: 20%;
   width:1300px;
@@ -277,7 +276,7 @@ font-family: 'Merriweather', serif;
 
   background-color: #ff9292;
   z-index: 1;
-  margin-top: 20px;
+  margin-top: 160px;
   float: left;
   margin-left: 0px;
  height: 240px;
@@ -319,9 +318,9 @@ font-size: 22px;
 /*padding-top: 20px; */
   background-color: #ff9292;
   z-index: 1;
-  margin-top: 100px;
+  margin-top: 140px;
  text-align: left;
- height: 200px;
+ height: 220px;
   overflow-x: hidden; /*for Disabling horizontal scroll */ 
   transition: 0.8s;
   
@@ -406,15 +405,15 @@ font-size: 22px;
 {
   width:0px;
 padding-top: 50px;
-  
-margin-left:0px;
+  margin-left: 0px;
+
   background-color: #ff9292;
   z-index: 1;
-  top: 140px;
+  top: 150px;
   font-size: 24px;
   font-family: 'Merriweather', serif;
  
- height: 200px;
+ height: 180px;
   overflow-x: hidden; /*for Disabling horizontal scroll */ 
   transition: 0.8s;
   
@@ -424,22 +423,24 @@ margin-left:0px;
 }
 .p_sidebarCourse
 {
-  margin-left: 10px;
+  margin-left: 0px;
   padding-top: 40px;
   font-family: 'Merriweather', serif;
   font-size: 24px;
+  margin-top:150px;
+ 
 
 
 }
 #sidebarCourse_b
 {
   width:0px;
-margin-left: 10px;
+  margin-left: 0px;
   background-color: #ff9292;
   z-index: 1;
-  top: 40px;
+  top: 50px;
   
- height: 200px;
+ height: 180px;
   overflow-x: hidden; /*for Disabling horizontal scroll */ 
   transition: 0.8s;
   
@@ -450,13 +451,14 @@ margin-left: 10px;
 }
 #sidebarCourse_c
 {
+  margin-left: 0px;
   width:0px;
 /*margin-left: 10px;*/
   background-color: #ff9292;
   z-index: 1;
-  margin-top: 40px;
+ top: 150px;
  
- height: 200px;
+ height: 180px;
   overflow-x: hidden; /*for Disabling horizontal scroll */ 
   transition: 0.8s;
   
@@ -480,6 +482,7 @@ margin-left: 10px;
   margin-left:40%;
   width:200px;
 }
+
 .form_new
 {
   height: 60%;width:350px;
@@ -749,8 +752,8 @@ float: center;
   color:#39BFBF;
   font-size: 3.6rem;
   font-weight:400rem;
-  padding-top: 0px;
- margin-top:0px;
+  padding-top: 50px;
+ margin-top:10px;
  margin-right: 5%;
 }
 #testimonial h2::after
