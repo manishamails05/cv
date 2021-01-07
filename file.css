@@ -487,8 +487,9 @@ padding-top: 50px;
 {
   height: 60%;width:350px;
   font-size: 1rem;
-  background-color:#66BFBF;
+  border-color:#66BFBF;
  margin-left:40%;
+         border-style:solid;
   
 }
 input
