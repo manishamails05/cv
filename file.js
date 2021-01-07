@@ -54,7 +54,7 @@ function closeNav_c()
 function openNavCourse_a() {
              
 document.getElementById("sidebarCourse_a").style.width = "400px";
-  document.getElementById("sidebarCourse_a").style.marginTop = "100px";
+  document.getElementById("sidebarCourse_a").style.marginTop = "150px";
 document.getElementById("sidebarCourse_a").style.marginLeft="0px"; 
 /*document.getElementById("sidebarCourse_a").style.paddingLeft="0px";  */
    document.getElementById("sidebarCourse_a").style.textAlign="center";
@@ -72,7 +72,7 @@ function openNavCourse_b()
 {
     document.getElementById("sidebarCourse_b").style.width = "400px";
  /*document.getElementById("sidebarCourse_b").style.marginLeft="150px"; */
- document.getElementById("sidebarCourse_b").style.marginTop = "100px";
+ document.getElementById("sidebarCourse_b").style.marginTop = "150px";
  document.getElementById("sidebarCourse_b").style.paddingLeft="0px";
    document.getElementById("sidebarCourse_b").style.textAlign="center";
 document.getElementById("circleCourse_a").style.opacity="0.2";
@@ -88,7 +88,7 @@ function openNavCourse_c()
 {
     document.getElementById("sidebarCourse_c").style.width = "400px";
 
- document.getElementById("sidebarCourse_c").style.marginTop = "100px";
+ document.getElementById("sidebarCourse_c").style.marginTop = "150px";
   document.getElementById("sidebarCourse_c").style.padding="0px";
    document.getElementById("sidebarCourse_c").style.textAlign="center";
 document.getElementById("circleCourse_a").style.opacity="0.2";
@@ -154,7 +154,7 @@ function closethank_c()
 
             $(".btn").click( function(event)
            {
-             alert('button clicked');
+             
              event.preventDefault()
              console.log("button clicked"); 
              var name=$('.fname').val();
@@ -220,7 +220,6 @@ function closethank_c()
                     }
                     );
             }
-
         			
         	
         
