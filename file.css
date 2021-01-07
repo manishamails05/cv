@@ -490,7 +490,7 @@ padding-top: 50px;
   border-color:#66BFBF;
  margin-left:40%;
          border-style:solid;
-         color: #606060;
+         
   
 }
 input
@@ -502,13 +502,14 @@ input
   border:  1px 0 0 0;
   border-top-color: gray;
   padding-left: 0px;
+        
 }
 label
 {
 line-height: 40px;
 font-size: 1.25rem;
 text-align: left;
-  color:#ffffff;
+  color: #606060;;
 }
 textarea
 {
