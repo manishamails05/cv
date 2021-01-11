@@ -1,8 +1,12 @@
  @media screen and (max-width: 480px) {
-
-body
+*
 {
+	margin:0px;
 
+}
+body,html
+{
+width: 100%;
 }
 .img-fluid {
  
@@ -28,11 +32,17 @@ h2
 #purple_box
 {
 	
+	 margin: 0 auto; width: 480px;
 
 }
 #female
 {
 	float: center;
+}
+.feature-box
+{
+	margin-left: 20%;
+
 }
 }
 body{
@@ -76,8 +86,38 @@ margin-top: 3%;
 {
 text-align: center;
 }
+#purple_box
+{
+	
+	 margin: 0 auto; width: 960px;
 
+}
+.mycontainer
+{
+	width: 100%;
+}
+.feature-box
+{
 
+height:300px;
+border: 10px solid;
+border-color:#E0F8F7;
+color:#fff;
+padding:2%;
+
+}
+
+#purple
+{
+background-color: #9c27b0;
+}
+#green{
+background-color: #009688;
+}
+#pink
+{
+background-color: #dd376f;
+}
 /*.container-fluid
 {
 height: 10rem;
