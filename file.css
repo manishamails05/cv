@@ -107,6 +107,12 @@ h2
 	margin-left: 0px;
 	padding-left: 0px;
 }
+div #last-link 
+{
+	margin-top:200px;
+	margin-left:250px;
+	width:400px;
+}
 }
 body{
 	/*padding-left:0px;
@@ -428,6 +434,9 @@ line-height: 30px;
 #last-link
 {
 	height:200px;
+
+
+
 	margin-bottom: 0px;
 	text-align: center;
 	color:#fff;
@@ -448,6 +457,7 @@ text-decoration: none;
   line-height: 4;
   font-family: 'Montserrat', sans-serif;
   margin:0px 20px 10px 20px;
+
 
 
 }
