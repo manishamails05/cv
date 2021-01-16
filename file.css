@@ -446,16 +446,16 @@ padding: 0px 0px 0px 0px;
 }*/
 #testimonial
 {
-	padding:0 15%;
+	padding:0 0;
 	text-align: left;
 	  background-color:#E0F8F7;
 	/*;*/
 	font-family: 'Montserrat-Bold', sans-serif;
 	font-size:2rem;
-	
+	width:300px;
 	margin-top: 0px;
-	margin-left:20%;
-	margin-right: 20%;
+	/*margin-left:20%;*/
+/*	margin-right: 20%;*/
 
 }
 .testi_text
@@ -490,7 +490,7 @@ line-height: 30px;
 }
 .carousel-indicators
 {
-	padding-left: 15%;
+	/*padding-left: 15%;*/
 }
 #know
 {
@@ -499,7 +499,7 @@ line-height: 30px;
 #last-link
 {
 	height:200px;
-
+margin-top:400px;
 
 
 	margin-bottom: 0px;
