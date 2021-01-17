@@ -53,7 +53,6 @@ margin-left: 5%;
 }*/
 .img_header
 {
-	
 	margin-right:5%;
 }
 /*h1 I am manisha
@@ -137,12 +136,13 @@ width: 10%;
 	font-family: 'Montserrat-Bold', sans-serif;
 	font-size:2rem;
 	
-	margin-top: 20px;
-	margin-left:0%;
-	margin-right: 0%;
+	margin: 100px 0px;
+	/*margin-left:0%;
+	margin-right: 0%;*/
+
 	/*width:200px;*/
 	padding-left: 0px;
-	height:150%;
+	height:100%;
 	padding-top: 150px;
 
 }
@@ -174,13 +174,28 @@ width: 10%;
 }
  #last-link 
 {
-	margin-top:50px;
+	margin-top:20px;
 	/*margin-left:250px;*/
 	width:400px;
+	height: 100px;
+}
+.contact-clean
+{
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+
 }
 
 
 }
+@media screen and (min-width: 960px) {
+	.contact-clean
+	{
+		margin-left: 39%;
+	}
+	}
+
 body{
 	/*padding-left:0px;
 	padding-right: 0px;
@@ -325,7 +340,7 @@ margin: 0 3em;
 text-align: center;
 padding-top:60px; /* linked with arrow */
 margin-bottom:250px;
-	margin-left:10%;
+margin-left:10%;
 
 }
 .text-muted/* courses paragraph */
@@ -479,6 +494,8 @@ line-height: 30px;
 .carousel-control-next,.carousel-control-prev
 {
 	padding-top: 550px;
+padding-left: 10%;
+	margin:10px;
 	
 }
 #img5,#img6
@@ -492,8 +509,8 @@ line-height: 30px;
 {
 	height:700px;
 	width:400px;
-	margin-right: 10%;
-	padding-right:10%;
+	/*margin-right: 10%;
+	padding-right:10%;*/
 }
 .sid,.soumith
 {
@@ -514,7 +531,7 @@ line-height: 30px;
 #last-link
 {
 	height:200px;
-margin-top:200px;
+margin-top:100px;
 
 
 	margin-bottom: 0px;
@@ -528,11 +545,11 @@ padding-top:4%;
   margin-left: 50%;*/
 
 }
-.carousel-control-prev,.carousel-control-next
+/*.carousel-control-prev,.carousel-control-next
 {
 	margin:10px;
 
-}
+}*/
 
 
 .footer-link
@@ -573,3 +590,65 @@ font-size:2rem;
         margin-right:20px;
 
     }
+#contact-clean
+{
+	margin-top: 5%;
+	margin-bottom:5%;
+/*margin-left:38%;*/
+	
+	/*margin-right: 39%;*/
+	width:350px;
+	padding-top:1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	height: 600px;
+	border:4px solid;
+	 border-color: #66BFBF;
+
+}
+/*.form-control placeholder
+{
+	font-size: 4rem;
+}*/
+#form_h2
+{
+	margin-bottom: 6%;
+}
+.btn 
+{
+	background: #11cdd4;
+	margin-left: 20%;
+	margin-right: 25%;
+	margin-top: 20px;
+ margin-bottom: 20px;
+	height:50px;
+	width:200px;
+	background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(top bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+	border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  
+
+}
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(top bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+input
+{
+
+}
