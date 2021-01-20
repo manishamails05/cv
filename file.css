@@ -193,6 +193,7 @@ text-align: left;
 	margin-top: 20px;
 	margin-left: 0px;
 	margin-right: 0px;
+	padding-top:120px;
 
 
 }
@@ -216,10 +217,7 @@ text-align: left;
 {
 	top: 150PX;
 }
-.contact-clean
-	{
-		padding-top:150px;
-	}
+
 
 }
 @media screen and (min-width: 960px) {
