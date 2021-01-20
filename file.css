@@ -86,6 +86,8 @@ h2
 	/*margin-left: 20%;
 	text-align: left;
 */
+margin-top: 350px;
+width:200px;
 
 }
 /*.container-fluid
@@ -128,6 +130,7 @@ color:#320e3a;
 
 }
 
+
 #testimonial
 {
 	
@@ -137,7 +140,7 @@ color:#320e3a;
 	font-family: 'Montserrat-Bold', sans-serif;
 	font-size:2rem;
 	
-	margin: 100px 0px;
+	margin: 200px 0px;
 	/*margin-left:0%;
 	margin-right: 0%;*/
 
@@ -146,11 +149,13 @@ color:#320e3a;
 	height:100%;
 	padding-top: 150px;
 
+
 }
 #testimonial-caraousel
 {
 	margin-left: 0px;
 	padding-left: 0px;
+	top:200px;
 }
 #img5,#img6
 {
@@ -186,8 +191,31 @@ color:#320e3a;
 	margin-left: 0px;
 	margin-right: 0px;
 
-}
 
+}
+#second-cont
+{
+	top:280px;
+	height:100px;
+	width:200px;
+	margin-top:1%;
+	padding-left: 10px;
+	background-color:#66BFBF;
+	
+	
+}
+#circle2
+{
+	top: 50PX;
+}
+#circle3
+{
+	top: 150PX;
+}
+.contact-clean
+	{
+		padding-top:150px;
+	}
 
 }
 @media screen and (min-width: 960px) {
@@ -195,6 +223,8 @@ color:#320e3a;
 	{
 		margin-left: 39%;
 	}
+
+
 	}
 
 body{
@@ -379,7 +409,7 @@ margin-left: 0%;
 {
 	visibility: hidden;
 }
-#backimg
+/*#backimg
 {
 	background-image: url('whitebg.jpeg');
 	background-repeat: repeat;
@@ -388,15 +418,16 @@ margin-left: 0%;
 	margin-top:5%;
 	opacity: 0.8;
 	padding-top: 0px;
-}
+}*/
 #second-cont /* container of image and text */
 {
 	position: relative;
 	text-align: center;
 	margin-bottom: 10px;
+height:300px;
 	padding-bottom: 20px;
-	margin-top: 5%;
-	background-color: #E0F8F7;
+	margin-top: 8%;
+background-color:#66bfbf;
 
 }
 .maintxt/* what other parents have to say */
@@ -440,7 +471,7 @@ padding: 0px 0px 0px 0px;
 	font-family: 'Montserrat-Bold', sans-serif;
 	font-size:2rem;
 	width:300px;
-	margin-top: 0px;
+	margin-top: 100px;
 	/*margin-left:20%;*/
 margin-right: 45%; /* to move the actual box to center */
 
