@@ -123,7 +123,8 @@ h2
 .maintxt /*what other parents have to say */
 {
 margin-right:30%;
-width: 10%;
+width: 20%;
+color:#320e3a;
 
 }
 
@@ -177,7 +178,7 @@ width: 10%;
 	margin-top:20px;
 	/*margin-left:250px;*/
 	width:400px;
-	height: 100px;
+	height: 50px;
 }
 .contact-clean
 {
@@ -257,7 +258,7 @@ text-align: center;
 {
 /*box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 box-shadow:3px 3px 5px 6px black;
-height:300px;
+height:330px;
 border: 1px solid; /* instead of 10 px i made 1 px */
 /*border-color:#E0F8F7;*/
 
@@ -270,7 +271,8 @@ border-radius: 2%;
 }
 strong
 {
-	font-size: 2.5rem;
+	font-size: 3.5rem;
+	/*padding-left: 90px;*/
 }
 
 #purple
@@ -302,7 +304,7 @@ width:100%;
 {
 /*box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 box-shadow:3px 3px 5px 6px black;
-height:300px;
+height:330px;
 border: 1px solid; /* instead of 10 px i made 1 px */
 /*border-color:#E0F8F7;*/
 
@@ -336,17 +338,29 @@ border-radius: 2%;
   display: inline-block;
   color: white;
   background: rgb(50,14,58); /* rgb(193,65,61) */
-margin: 0 3em;
+margin: 2em 3em;
 text-align: center;
 padding-top:60px; /* linked with arrow */
 margin-bottom:250px;
 margin-left:10%;
 
 }
-.text-muted/* courses paragraph */
+.text/* courses paragraph */
 {
-	padding-top: 50%;
+	height:250px;
+	padding-left: 20px;
+	padding-right:20px;
+	margin-top:50%;
+	margin-bottom:50px;
+	/*padding-top: 20%;*/
 	text-align: left;
+	width:200px;
+color:rgb(50,14,58);
+border:solid 5px  #fdcbc9;
+background-color: #fdcbc9;
+border-radius:10%;
+margin-left: 0%;
+
 }
 
 
@@ -416,9 +430,9 @@ margin-left:10%;
 {
 	background-image: url('whitebg.jpeg');
 	background-repeat: repeat;
-	height: 400px;
+	height: 450px;
 	width:100%;
-	margin-top: 0%;
+	margin-top:5%;
 	opacity: 0.8;
 	padding-top: 0px;
 }
@@ -435,7 +449,7 @@ margin-left:10%;
 .maintxt/* what other parents have to say */
 {
 	position: absolute;
-	top: 0;
+	top: 50px;
 	font-size: 3rem;
 	text-align: center;
 	padding-top: 4%;
@@ -493,9 +507,9 @@ line-height: 30px;
 }
 .carousel-control-next,.carousel-control-prev
 {
-	padding-top: 550px;
-padding-left: 10%;
-	margin:10px;
+	padding-top: 630px;
+padding-left:30px;
+	margin:40px;
 	
 }
 #img5,#img6
@@ -507,7 +521,7 @@ padding-left: 10%;
 
 .carousel-inner /* the actual testimonial box */
 {
-	height:700px;
+	height:750px;
 	width:400px;
 	/*margin-right: 10%;
 	padding-right:10%;*/
@@ -576,7 +590,7 @@ a:hover
       /*  background: #dbdfe5;*/
         margin-bottom: 10px;
        /* box-shadow:3px 3px 5px 6px black;*/
-height:400px;
+height:450px;
 border: 1px solid;
 color:#fff;
 /*padding:2%;*/
@@ -602,7 +616,7 @@ font-size:2rem;
 	padding-left: 2%;
 	padding-right: 2%;
 	height: 600px;
-	border:4px solid;
+	border:5px solid;
 	 border-color: #66BFBF;
 
 }
@@ -648,7 +662,9 @@ font-size:2rem;
   background-image: linear-gradient(top bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
-input
+.comma
 {
-
+font-size: 60px;
 }
+.pathway
+{}
