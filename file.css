@@ -275,7 +275,7 @@ margin-top: 3%;
 }
 .img_header
 {
-/*text-align: center;*/
+text-align: center;
 
 
 }
@@ -496,7 +496,7 @@ padding-left:30px;
 	margin:40px;
 	
 }
-#img5,#img6,#img7
+#img5,#img6
 {
 	height: 130px; 
 	margin-left: 35%;
@@ -585,7 +585,7 @@ font-size:2rem;
 	margin-top: 5%;
 	margin-bottom:5%;
 
-	width:330px;
+	width:350px;
 	padding-top:1%;
 	padding-left: 2%;
 	padding-right: 2%;
@@ -640,4 +640,3 @@ font-size:2rem;
 {
 font-size: 60px;
 }
-
