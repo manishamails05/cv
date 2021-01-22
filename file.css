@@ -236,6 +236,17 @@ margin-top:5%;
 
 
 	}
+@media (min-width: 768px) and (max-width: 1024px){ 
+.contact-clean
+	{
+		margin-top:5%;
+		margin-left: 20%;
+ 	}
+ 	#testimonial
+ 	{
+ 		margin-left: 20%;
+ 	}
+ }
 
 body{
 	/*padding-left:0px;
